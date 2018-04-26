@@ -37,6 +37,7 @@ func main() {
 		log.Fatal("Query Error : ", err)
 	}
 
-	fmt.Println(result)
+	//Casting the result to desired type
+	fmt.Println(result.([]Posts))
 
 }
